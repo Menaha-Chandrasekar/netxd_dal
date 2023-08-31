@@ -4,9 +4,9 @@ package netxddalservices
 import (
 	"context"
 	"log"
-	netxddalinterfaces "module/netxd_dal/netxd_dal_interface"
+	netxddalinterfaces "github.com/Menaha-Chandrasekar/netxd_dal/netxd_dal_interface"
 	
-	netxddalmodels "module/netxd_dal/netxd_dal_models"
+	netxddalmodels "github.com/Menaha-Chandrasekar/netxd_dal/netxd_dal_models"
 	"time"
 	"fmt"
 	"go.mongodb.org/mongo-driver/bson"
